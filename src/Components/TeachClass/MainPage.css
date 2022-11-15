@@ -1,0 +1,49 @@
+.imagen {
+    width: 100%;
+    vertical-align: top;
+  }
+  
+  .languaje {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flag {
+    width: 75px;
+    margin: 30px;
+    margin-top: 60px;
+  }
+  
+  .botones {
+    text-align: center;
+  }
+  
+  .botones button {
+    width: 150px;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color: gray;
+    font-size: 1.05em;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .professor, .loc {
+    width: 320px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: orange;
+    padding-bottom: 15px;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  body {
+    /* background-color: #EDE9E3; */
+  }

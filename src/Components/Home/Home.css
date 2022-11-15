@@ -1,0 +1,144 @@
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+
+.all {
+    width: 1000px;
+    font-family: 'Inter', sans-serif;
+}
+
+.tittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.tittle h1 {
+  font-size: 50px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+}
+
+.tittle p {
+  font-size: 19px;
+  line-height: 1.7;
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.img-tittle {
+    border-radius: 20px;
+}
+
+
+.clima {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #087f5b;
+    padding: 24px;
+    border-radius: 20px;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.clima img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.conversor {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.conversor img {
+    width: 200px;
+}
+
+.idioma {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #087f5b;
+    padding: 24px;
+    border-radius: 20px;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.idioma img {
+    width: 200px;
+}
+
+.timer {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.timer img {
+    width: 200px;
+}
+
+.btnn {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    -webkit-transition: all 250ms;
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .btnn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    -webkit-transition: all 250ms;
+    transition: all 250ms
+   }
+   
+   .btnn:hover {
+    color: #e8e8e8;
+   }
+   
+   .btnn:hover::before {
+    width: 100%;
+   }
