@@ -33,7 +33,7 @@ function Home() {
                     <img src='../images/conversor.jpg' alt='img not found'/>
                     <div>
                     <h4>Conversor</h4>
-                    <p>Un conversor de valor entre monedas, en este caso nos muestra el valor de 1 euro en diferentes valores, excelente
+                    <p>Un conversor de valor entre monedas, en este caso nos muestra el valor de 1 euro en diferentes valores en distintas divisas, excelente
                         para personas que les gusta viajar o realizar compras online (aqui no use ninguna api y la información mostrada
                         puede estar desactualizada)
                     </p>
@@ -46,7 +46,9 @@ function Home() {
                     <img src='../images/clasesidioma.png' alt='img not found'/>
                     <div>
                     <h4>Clases en el idioma que elijas</h4>
-                    <p>Este es un componente donde puedes elegir que clases deseas ver en el idioma de tu preferencia</p>
+                    <p>Este es un componente donde puedes elegir una clase en particular en el idioma de tu preferencia, entre los idiomas
+                        disponibles estan: español, ingles y frances.
+                    </p>
                     <Link to="/class">
                         <button className='btnn'>Ver</button>
                     </Link>

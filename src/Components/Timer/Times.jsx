@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-/* import React from 'react'; */
+import { Link } from 'react-router-dom';
 import './Timer.css';
 
 
@@ -55,6 +55,7 @@ const Timer = () => {
 
   return (
     <div className="appp">
+      <div className='box'>
       <div className="time">
         {segundos}
       </div>
@@ -62,14 +63,18 @@ const Timer = () => {
         <button className={`button button-primary button-primary-${activo ? 'active' : 'inactive'}`} onClick={toggle}>
         {activo ? 'Pausa' : 'Inicio'}
         </button>
-        <button className="button-secondary" onClick={reset}>
+        <button className="button" onClick={reset}>
           Reset
         </button>
       </div>
       <button className="button" onClick={cambioTipo}>
           {tipo}
       </button>
-      {tipo === 'Cuenta Regresiva' && <input type="number" ref={myRef} onChange={agregaSegundos} placeholder="Ingresa Segundos" autoComplete="off"/>}
+      {tipo === 'Cuenta Regresiva' && <input className='inp' type="number" ref={myRef} onChange={agregaSegundos} placeholder="Ingresa Segundos" autoComplete="off"/>}
+      </div>
+      <Link to='/'>
+        <button className='btnn'>Volver</button>
+      </Link>
     </div>
   );
 };
