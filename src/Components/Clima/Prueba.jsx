@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Cards from './Cards';
 import Nav from './Nav';
+import './Prueba.css';
 
 function Prueba() {
 
@@ -48,7 +49,7 @@ function Prueba() {
   }
 
   return (
-    <div>
+    <div className='back'>
         <div>
             <Nav onSearch={onSearch}/>
         </div>

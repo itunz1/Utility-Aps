@@ -4,7 +4,7 @@ import './Cards.css';
 import Card from './Card.jsx';
 
 export default function Cards({cities, onClose}) {
-  console.log(cities)
+
   return (
     <div className='cards'>
       {cities.map(c => <Card
